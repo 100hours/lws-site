@@ -1,0 +1,16 @@
+.navbar.navbar-default.navbar-fixed-top
+	.navbar-inner
+		.container
+			%a.brand(href="#") Live Writing Series 
+			.nav-collapse
+				%ul.nav
+					%li{:class => data.page.name == 'index' ? 'active' : ''}
+						%a(href="/") Home
+					%li{:class => data.page.name == 'about' ? 'active' : ''}
+						%a(href="/about") About
+					%li{:class => data.page.name == 'calendar' ? 'active' : ''}
+						%a(href="/calendar") Events
+					%li{:class => data.page.name == 'interviews' ? 'active' : ''}
+						%a(href="/interviews") Writers
+					%li{:class => data.page.name == 'feedback' ? 'active' : ''}
+						%a(href="feedback") Feedback
