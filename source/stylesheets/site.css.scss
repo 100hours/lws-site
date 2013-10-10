@@ -19,8 +19,9 @@
   .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width: 940px; }
 }
 
-.about_index .container {
+.about_index #main, .contact_index #main {
   width: 720px;
+  margin: auto;
 }
 
 body {
