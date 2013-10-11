@@ -10,6 +10,14 @@ name: "index"
   .row-fluid
     .span3{ style: "text-align: center" }
       %img{ :src => "/img/logo_on_grey.jpg" }
+
+      .subscribe{ style: "margin-top: 25px" }
+        %form{ action: "/subscribe", method: "post" }
+
+          %label{ for: "email" }Keep me informed:
+          .input-append
+            %input.span8{ type: "text", name: "email", placeholder:"me@example.org" }
+            %button.btn{ type: "button"}Go!
     .span9{ style: "margin-top: 75px" }
 
       :markdown
@@ -28,3 +36,4 @@ name: "index"
         It’s literature. It’s improv. It’s the Live Writing Series.
 
         **The first event sees David Varela writing at the National Portrait Gallery on Friday 25 October**
+
