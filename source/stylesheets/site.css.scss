@@ -15,8 +15,15 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300,400);
 @import url(http://fonts.googleapis.com/css?family=Varela);
 
+@media only screen and (min-width: 980px) {
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
-  .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width: 940px; }
+  /*.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width: 940px; }*/
 }
 
 /*.about_index #main, .contact_index #main {*/
@@ -25,8 +32,6 @@
 /*}*/
 
 body {
-	padding-top: 60px;
-	padding-bottom: 40px;
   font-family: 'Varela', sans-serif;
 }
 
