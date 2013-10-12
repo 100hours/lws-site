@@ -9,7 +9,7 @@ layout: "layouts/leftsidebar"
     .subscribe{ style: "margin-top: 25px" }
       %form#subscribe-form{ action: "/subscribe", method: "post" }
 
-        .row-fluid
+        .row-fluid{style: "text-align: center"}
           %label{ for: "email" }Keep me informed:
           .input-append
             %input#email.span9{ type: "text", name: "email", placeholder:"me@example.org" }
